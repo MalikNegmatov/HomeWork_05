@@ -32,7 +32,9 @@ public class Main {
     public static void task3 () {
         System.out.println("\nЗадача 3");
         // Пишем код для задачи 3
-
+        for (int i = 0; i <= 17; i = i + 2) {
+            System.out.println(i);
+        }
     }
 
     public static void task4 () {
