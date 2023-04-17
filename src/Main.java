@@ -16,7 +16,9 @@ public class Main {
     public static void task1 () {
         System.out.println("Задача 1");
         // Пишем код для задачи 1
-
+        for (int j = 0; j <= 10; j++) {
+            System.out.println(j);
+        }
     }
 
     public static void task2 () {
