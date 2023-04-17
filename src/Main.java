@@ -54,15 +54,15 @@ public class Main {
 
     public static void task8 () {
         System.out.println("\nЗадача 8");
-        // Пишем код для задачи 7
+        // Пишем код для задачи 8
     }
     public static void task9 () {
         System.out.println("\nЗадача 9");
-        // Пишем код для задачи 7
+        // Пишем код для задачи 9
     }
     public static void task10 () {
         System.out.println("\nЗадача 10");
-        // Пишем код для задачи 7
+        // Пишем код для задачи 10
     }
 
 }
