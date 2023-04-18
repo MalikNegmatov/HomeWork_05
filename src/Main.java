@@ -69,10 +69,26 @@ public class Main {
     public static void task8 () {
         System.out.println("\nЗадача 8");
         // Пишем код для задачи 8
+
+        int deposit = 29000;
+        int totalSum = 0;
+
+        for (int i = 0; i <= 12; i++) {
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalSum + " рублей.");
+            totalSum = totalSum + deposit;
+        }
     }
     public static void task9 () {
         System.out.println("\nЗадача 9");
         // Пишем код для задачи 9
+        int deposit = 29000;
+        double totalSum = 0.0;
+
+        for (int i = 0; i <= 12; i++) {
+            String totalSumFormate = String.format("%.2f", totalSum);
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalSumFormate + " рублей.");
+            totalSum = totalSum*1.01 + deposit;
+        }
     }
     public static void task10 () {
         System.out.println("\nЗадача 10");
