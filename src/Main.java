@@ -85,14 +85,17 @@ public class Main {
         double totalSum = 0.0;
 
         for (int i = 0; i <= 12; i++) {
-            String totalSumFormate = String.format("%.2f", totalSum);
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalSumFormate + " рублей.");
+            String totalSumFormatted = String.format("%.2f", totalSum);
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalSumFormatted + " рублей.");
             totalSum = totalSum*1.01 + deposit;
         }
     }
     public static void task10 () {
         System.out.println("\nЗадача 10");
         // Пишем код для задачи 10
+        for (int i = 1; i<=10; i++) {
+            System.out.println("2*" + i + " = " + 2*i );
+        }
     }
 
 }
