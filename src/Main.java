@@ -40,12 +40,18 @@ public class Main {
     public static void task4 () {
         System.out.println("\nЗадача 4");
         // Пишем код для задачи 4
-
+        for (int i = 10; i >= -10; i--) {
+            System.out.println(i);
+        }
     }
+
 
     public static void task5 () {
         System.out.println("\nЗадача 5");
         // Пишем код для задачи 5
+        for (int i = 1904; i <= 2096; i +=4 ) {
+            System.out.println(i + " год является високосным.");
+        }
 
     }
     public static void task6 () {
