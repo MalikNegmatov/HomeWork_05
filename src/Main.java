@@ -57,13 +57,16 @@ public class Main {
     public static void task6 () {
         System.out.println("\nЗадача 6");
         // Пишем код для задачи 6
-        for (int i = 1; i <= 512; i *= 2) {
+        for (int i = 7; i <= 98; i += 7) {
             System.out.println(i);
         }
     }
     public static void task7 () {
         System.out.println("\nЗадача 7");
         // Пишем код для задачи 7
+        for (int i = 1; i <= 512; i *= 2) {
+            System.out.println(i);
+        }
     }
 
     public static void task8 () {
